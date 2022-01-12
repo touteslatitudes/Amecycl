@@ -1,0 +1,5 @@
+# on ignore le fichier defaut.css qui est créé à l'activation du plugin
+amecycl-defaut.css
+
+# on ignore le repertoire configurations et son contenu. Il est crée à l'activation du plugin
+/configurations

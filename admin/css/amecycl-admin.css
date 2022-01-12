@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+.acy-table-list {
+	margin: 15px  15px 0 0;
+}
+
+.acy-table-list h2 {
+	display: inline!important;
+}
+
+.acy-table {
+	margin-right: 15px;
+}

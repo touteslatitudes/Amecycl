@@ -1,0 +1,796 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ToutesLatitudes 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-10 18:55+0100\n"
+"PO-Revision-Date: 2022-01-10 19:01+0100\n"
+"Last-Translator: bdvllrd <bdvllrd@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;esc_attr_;__;_e;_nx;esc_html__;"
+"esc_html;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2;plural=n>1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-amecycl-admin.php:138 ../admin/class-amecycl-admin.php:139
+#: ../public/partials/amecycl-public-display.php:39
+msgid "Cycle routes"
+msgstr "Aménagements cyclables"
+
+#: ../admin/class-amecycl-admin.php:148 ../admin/class-amecycl-admin.php:149
+#: ../admin/class-amecycl-admin.php:380
+msgid "Manage Regions"
+msgstr "Gestion des régions"
+
+#: ../admin/class-amecycl-admin.php:157 ../admin/class-amecycl-admin.php:158
+#: ../admin/class-amecycl-admin.php:741
+msgid "Manage Settings"
+msgstr "Gestion des configurations"
+
+#: ../admin/class-amecycl-admin.php:201
+msgid "Delete Region Confirm"
+msgstr "Confirmation de la suppression de la région"
+
+#: ../admin/class-amecycl-admin.php:203
+msgid "Delete region"
+msgstr "Supprimer la région"
+
+#: ../admin/class-amecycl-admin.php:239 ../admin/class-amecycl-admin.php:545
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../admin/class-amecycl-admin.php:242
+msgid "Regions"
+msgstr "Régions"
+
+#: ../admin/class-amecycl-admin.php:246
+msgid "Search regions"
+msgstr "Recherche d'une région"
+
+#: ../admin/class-amecycl-admin.php:297 ../admin/class-amecycl-admin.php:312
+#: ../admin/class-amecycl-admin.php:323 ../admin/class-amecycl-admin.php:338
+#: ../admin/class-amecycl-admin.php:592 ../admin/class-amecycl-admin.php:598
+#: ../admin/class-amecycl-admin.php:616 ../admin/class-amecycl-admin.php:626
+#: ../admin/class-amecycl-admin.php:641
+msgid "Error"
+msgstr "Erreur"
+
+#: ../admin/class-amecycl-admin.php:299
+msgid "Thanks to provide a region name"
+msgstr "Merci de fournir un nom de région"
+
+#: ../admin/class-amecycl-admin.php:307 ../admin/class-amecycl-admin.php:332
+#: ../admin/class-amecycl-admin.php:610 ../admin/class-amecycl-admin.php:635
+msgid "Success"
+msgstr "Succès"
+
+#: ../admin/class-amecycl-admin.php:309
+msgid "Ok region updated"
+msgstr "Ok Région mise à jour"
+
+#: ../admin/class-amecycl-admin.php:314
+msgid "Region not updated"
+msgstr "Région non mise à jour"
+
+#: ../admin/class-amecycl-admin.php:325
+msgid "This region already exists!"
+msgstr "Cette région existe déjà !"
+
+#: ../admin/class-amecycl-admin.php:334
+msgid "Ok region created"
+msgstr "Ok région créée"
+
+#: ../admin/class-amecycl-admin.php:340
+msgid "Insertion error! "
+msgstr "Erreur d'insertion !"
+
+#: ../admin/class-amecycl-admin.php:354 ../admin/class-amecycl-admin.php:656
+#: ../admin/class-amecycl-admin.php:731
+msgid "Update"
+msgstr "Mise à jour"
+
+#: ../admin/class-amecycl-admin.php:354 ../admin/class-amecycl-admin.php:656
+#: ../admin/class-amecycl-admin.php:731
+msgid "Create"
+msgstr "Créer"
+
+#: ../admin/class-amecycl-admin.php:386
+msgid "Region id"
+msgstr "Id"
+
+#: ../admin/class-amecycl-admin.php:387
+msgid "Help region id"
+msgstr "Id de la région. Non modifiable."
+
+#: ../admin/class-amecycl-admin.php:392
+msgid "Region name"
+msgstr "Nom"
+
+#: ../admin/class-amecycl-admin.php:393
+msgid "Help region name"
+msgstr "Sélectionner un fichier du répertoire uploads"
+
+#: ../admin/class-amecycl-admin.php:398
+msgid "Region year"
+msgstr "Année"
+
+#: ../admin/class-amecycl-admin.php:399
+msgid "Help region year"
+msgstr "Saisissez l'année sur 4 digits. Ex: 2020"
+
+#: ../admin/class-amecycl-admin.php:404
+msgid "Region slug"
+msgstr "Identifiant textuel"
+
+#: ../admin/class-amecycl-admin.php:405
+msgid "Help region slug"
+msgstr "Laisser vide ou saisir un identifiant textuel"
+
+#: ../admin/class-amecycl-admin.php:410
+msgid "Region filename"
+msgstr "Nom du fichier région"
+
+#: ../admin/class-amecycl-admin.php:412
+msgid "Help region filename"
+msgstr "Saisissez le nom du fichier geoJson de la région"
+
+#: ../admin/class-amecycl-admin.php:423
+msgid "Region datadate"
+msgstr "Date des données"
+
+#: ../admin/class-amecycl-admin.php:424
+msgid "Help region datadate"
+msgstr "Saisissez une date sous la forme DD/MM/YY"
+
+#: ../admin/class-amecycl-admin.php:429
+msgid "Setting"
+msgstr "Configuration"
+
+#: ../admin/class-amecycl-admin.php:431
+msgid "Help setting"
+msgstr "Sélectionner une configuration"
+
+#: ../admin/class-amecycl-admin.php:442
+msgid "Region desc"
+msgstr "Description"
+
+#: ../admin/class-amecycl-admin.php:512
+msgid "Delete Setting Confirm"
+msgstr "Confirmation de la suppression de la configuration"
+
+#: ../admin/class-amecycl-admin.php:514
+msgid "Delete setting"
+msgstr "Supprimer une configuration"
+
+#: ../admin/class-amecycl-admin.php:548
+msgid "Settings"
+msgstr "Configurations"
+
+#: ../admin/class-amecycl-admin.php:552
+msgid "Search settings"
+msgstr "Recherche d'une configuration"
+
+#: ../admin/class-amecycl-admin.php:594
+msgid "Thanks to provide a setting name"
+msgstr "Merci de fournir un nom de configuration"
+
+#: ../admin/class-amecycl-admin.php:600
+msgid "Defaut as configuration name not allowed"
+msgstr "Defaut n'est pas autorisé comme nom de configuration"
+
+#: ../admin/class-amecycl-admin.php:612
+msgid "Ok setting updated"
+msgstr "Ok Configuration mise à jour"
+
+#: ../admin/class-amecycl-admin.php:618
+msgid "Setting not updated"
+msgstr "Configuration non mise à jour"
+
+#: ../admin/class-amecycl-admin.php:628
+msgid "This setting already exists!"
+msgstr "Cette configuration existe déjà !"
+
+#: ../admin/class-amecycl-admin.php:637
+msgid "Ok setting created"
+msgstr "Ok configuration créée"
+
+#: ../admin/class-amecycl-admin.php:643
+#, fuzzy
+#| msgid "Insertion error! "
+msgid "Insertion error!"
+msgstr "Erreur d'insertion !"
+
+#: ../admin/class-amecycl-admin.php:746
+msgid "Identification tab"
+msgstr "Identification"
+
+#: ../admin/class-amecycl-admin.php:747
+msgid "Labels tab"
+msgstr "Labels de configuration"
+
+#: ../admin/class-amecycl-admin.php:754
+msgid "Setting id"
+msgstr "Id de configuration"
+
+#: ../admin/class-amecycl-admin.php:755
+msgid "Help setting id"
+msgstr "Id de la configuration. Non modifiable."
+
+#: ../admin/class-amecycl-admin.php:759
+msgid "Setting name"
+msgstr "Nom de la configuration"
+
+#: ../admin/class-amecycl-admin.php:760
+msgid "Help setting name"
+msgstr "Saisissez un nom de configuration"
+
+#: ../admin/class-amecycl-admin.php:764
+msgid "Setting slug"
+msgstr "Identifiant textuel"
+
+#: ../admin/class-amecycl-admin.php:765
+msgid "Help setting slug"
+msgstr "Identifiant textuel de la configuration. Non modifiable."
+
+#: ../admin/class-amecycl-admin.php:769
+msgid "Setting date"
+msgstr "Date de la configuration"
+
+#: ../admin/class-amecycl-admin.php:770
+msgid "Help setting date"
+msgstr "Saisissez une date. Par ex: 01/12/2021"
+
+#: ../admin/class-amecycl-admin.php:775
+msgid "Help desc"
+msgstr ""
+"Saisissez une description de la configuration. Quel usage / Quel schéma de "
+"données."
+
+#: ../admin/class-amecycl-admin.php:775
+msgid "Setting description"
+msgstr "Description de la configuration"
+
+#: ../admin/class-amecycl-list-table.php:169
+msgid "Compact view"
+msgstr "Vue compacte"
+
+#: ../admin/class-amecycl-list-table.php:170
+msgid "Extended view"
+msgstr "Vue étendue"
+
+#: ../admin/class-amecycl-list-table.php:335
+msgid "No items found."
+msgstr "Aucun élément trouvé."
+
+#: ../admin/class-amecycl-list-table.php:486
+msgid "Select bulk action"
+msgstr "Sélectionner une action groupée"
+
+#: ../admin/class-amecycl-list-table.php:488
+msgid "Bulk actions"
+msgstr "Actions groupées"
+
+#: ../admin/class-amecycl-list-table.php:509
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../admin/class-amecycl-list-table.php:572
+#: ../admin/class-amecycl-list-table.php:1458
+msgid "Show more details"
+msgstr "Voir plus de détails"
+
+#: ../admin/class-amecycl-list-table.php:640
+msgid "Filter by date"
+msgstr "Filtrer par date"
+
+#: ../admin/class-amecycl-list-table.php:642
+msgid "All dates"
+msgstr "Toutes les dates"
+
+#: ../admin/class-amecycl-list-table.php:657
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: ../admin/class-amecycl-list-table.php:734
+#: ../admin/class-amecycl-list-table.php:764
+#: ../admin/class-amecycl-list-table.php:787
+msgid "No comments"
+msgstr "Pas de commentaires"
+
+#: ../admin/class-amecycl-list-table.php:764
+msgid "No approved comments"
+msgstr "Aucun commentaires approuvés"
+
+#: ../admin/class-amecycl-list-table.php:787
+msgid "No pending comments"
+msgstr "Aucun commentaire en attente"
+
+#: ../admin/class-amecycl-list-table.php:918
+msgid "First page"
+msgstr "Première page"
+
+#: ../admin/class-amecycl-list-table.php:929
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: ../admin/class-amecycl-list-table.php:936
+#: ../admin/class-amecycl-list-table.php:940
+msgid "Current Page"
+msgstr "Page courante"
+
+#: ../admin/class-amecycl-list-table.php:959
+msgid "Next page"
+msgstr "Page suivante"
+
+#: ../admin/class-amecycl-list-table.php:970
+msgid "Last page"
+msgstr "Dernière page"
+
+#: ../admin/class-amecycl-list-table.php:1192
+msgid "Select All"
+msgstr "Sélectionner les tous"
+
+#: ../admin/class-amecycl-region-list-table.php:37
+msgid "region"
+msgstr "région"
+
+#: ../admin/class-amecycl-region-list-table.php:39
+msgid "regions"
+msgstr "régions"
+
+#: ../admin/class-amecycl-region-list-table.php:50
+msgid "No regions found"
+msgstr "Pas de régions trouvées"
+
+#: ../admin/class-amecycl-region-list-table.php:129
+#: ../admin/class-amecycl-setting-list-table.php:53
+msgid "Id"
+msgstr "Id"
+
+#: ../admin/class-amecycl-region-list-table.php:131
+#: ../admin/class-amecycl-setting-list-table.php:54
+msgid "Name"
+msgstr "Nom"
+
+#: ../admin/class-amecycl-region-list-table.php:133
+msgid "Year"
+msgstr "Année"
+
+#: ../admin/class-amecycl-region-list-table.php:135
+msgid "Datadate"
+msgstr "Date"
+
+#: ../admin/class-amecycl-region-list-table.php:137
+msgid "Slug region"
+msgstr "Id région"
+
+#: ../admin/class-amecycl-region-list-table.php:139
+msgid "Slug setting"
+msgstr "Id configuration"
+
+#: ../admin/class-amecycl-region-list-table.php:141
+msgid "Filename"
+msgstr "Fichier"
+
+#: ../admin/class-amecycl-region-list-table.php:143
+msgid "Nb"
+msgstr "Nombre"
+
+#: ../admin/class-amecycl-region-list-table.php:145
+msgid "Km"
+msgstr "Km"
+
+#: ../admin/class-amecycl-region-list-table.php:147
+msgid "Kmc"
+msgstr "Km cyclable"
+
+#: ../admin/class-amecycl-region-list-table.php:163
+#: ../admin/class-amecycl-setting-list-table.php:65
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../admin/class-amecycl-region-list-table.php:167
+#: ../admin/class-amecycl-region-list-table.php:186
+#: ../admin/class-amecycl-setting-list-table.php:66
+#: ../admin/class-amecycl-setting-list-table.php:73
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../admin/class-amecycl-setting-list-table.php:19
+msgid "setting"
+msgstr "configuration"
+
+#: ../admin/class-amecycl-setting-list-table.php:20
+msgid "settings"
+msgstr "configurations"
+
+#: ../admin/class-amecycl-setting-list-table.php:26
+msgid "No settings found"
+msgstr "Pas de configurations trouvées"
+
+#: ../admin/class-amecycl-setting-list-table.php:55
+msgid "Date"
+msgstr "Date"
+
+#: ../admin/class-amecycl-setting-list-table.php:56
+msgid "Slug"
+msgstr "Identifiant textuel"
+
+#: ../admin/class-amecycl-setting-list-table.php:57
+msgid "Description"
+msgstr "Description"
+
+#: ../includes/class-amecycl-model.php:180
+msgid "Default settings description"
+msgstr ""
+"Configuration par défaut. Cette configuration sert de base à la création de "
+"nouvelles configurations. Elle n'est pas modifiable."
+
+#: ../includes/class-amecycl-model.php:614
+msgid "no existing file"
+msgstr "<br/>Fichier inexistant !"
+
+#: ../includes/class-amecycl-model.php:618
+msgid "blank file name"
+msgstr "<br />Nom de fichier vide !"
+
+#: ../includes/class-amecycl-model.php:904
+#, php-format
+msgid "wrong labels: %s"
+msgstr "Labels erronés: %s - Corrigez le fichier !"
+
+#: ../public/class-amecycl-public.php:303
+#, php-format
+msgid "Map - %s : Unknown region slug - Check the shortcode call !"
+msgstr ""
+"Affichage de la carte - %s : région inconnue - Vérifier l'appel du "
+"shortcode !"
+
+#: ../public/class-amecycl-public.php:308
+msgid "Map - You should provide a region slug. Check the shortcode call !"
+msgstr ""
+"Affichage de la carte - Vous devez fournir une région. Vérifier l'appel du "
+"shortcode !"
+
+#: ../public/class-amecycl-public.php:338
+#, php-format
+msgid "Map - %s : Unknown setting. Check the shortcode call !"
+msgstr ""
+"Affichage de la carte - %s : configuration inconnue. Vérifier l'appel du "
+"shortcode !"
+
+#: ../public/class-amecycl-public.php:500
+msgid "region_km:"
+msgstr "Longueur voies :"
+
+#: ../public/class-amecycl-public.php:501
+msgid "region_kmc:"
+msgstr "Linéaires cyclables :"
+
+#: ../public/class-amecycl-public.php:506
+msgid "osm date"
+msgstr ""
+"Carte produite à partir de données <a href=\"https://www.openstreetmap.org\" "
+"target=\"_blank\" rel=\"nofollow noopener noreferrer\">OpenStreetMap</a>%s"
+
+#: ../public/class-amecycl-public.php:507
+msgid "copyright"
+msgstr ""
+"Amecycl %s &copy; <a href=\"https://randovelo.touteslatitudes.fr\" target="
+"\"_blank\" rel=\"nofollow noopener noreferrer\">toutesLatitudes</a> "
+
+#: ../public/class-amecycl-public.php:644
+#: ../public/class-amecycl-public.php:659
+#, php-format
+msgid "Stats - %s : Unknown region slug - Check the shortcode call !"
+msgstr ""
+"Affichage des statistiques - %s : région inconnue - Vérifier l'appel du "
+"shortcode !"
+
+#: ../public/class-amecycl-public.php:673
+msgid ""
+"Stats - You should provide at least one region slug. Check the shortcode "
+"call !"
+msgstr ""
+"Affichage des statistiques - Vous devez fournir au moins une région. "
+"Vérifier l'appel du shortcode !"
+
+#: ../public/class-amecycl-public.php:746
+msgid "type amenagement"
+msgstr "Type d'aménagement"
+
+#: ../public/class-amecycl-public.php:752
+msgid "longueur voie"
+msgstr "Longueur voie"
+
+#: ../public/class-amecycl-public.php:752
+msgid "lineaire cyclable"
+msgstr "Linéaire cyclable"
+
+#: ../public/class-amecycl-public.php:776
+msgid "total"
+msgstr "Total"
+
+#: ../public/partials/amecycl-public-display.php:48
+msgid "Maps"
+msgstr "Cartes"
+
+#: ../public/partials/amecycl-public-display.php:57
+msgid "Cycle route types"
+msgstr "Type d'aménagements cyclables"
+
+#: ../public/partials/amecycl-public-display.php:66
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: ../public/partials/amecycl-public-display.php:71
+msgid "Download files :"
+msgstr "Fichiers disponibles :"
+
+#~ msgid "Upload region file"
+#~ msgstr "Téléchargement fichier"
+
+#~ msgid "Help upload file"
+#~ msgstr ""
+#~ "Sélectionner sur votre disque le fichier .geojson à transférer dans le "
+#~ "répertoire uploads du serveur. Une fois téléchargé, rafraichissez la page "
+#~ "pour le voir dans la liste déroulante."
+
+#~ msgid "Upload"
+#~ msgstr "Télécharger"
+
+#~ msgid "Generate setting"
+#~ msgstr "Générer le jeu de configuration"
+
+#~ msgid "Show"
+#~ msgstr "Afficher"
+
+#~ msgid "Default settings - do not delete"
+#~ msgstr "Configuration par défaut - Ne pas supprimer !"
+
+#~ msgid "Add setting"
+#~ msgstr "Ajouter une configuration"
+
+#~ msgid "Manage Layouts"
+#~ msgstr "Gestion des couches"
+
+#~ msgid "List View"
+#~ msgstr "Liste"
+
+#~ msgid "Excerpt View"
+#~ msgstr "Résumé"
+
+#~ msgid "%s pending"
+#~ msgstr "%s restant"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "Oups! Y a rien à voir ici ! Vous êtes définitivement perdu."
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try one of the "
+#~ "links below or a search?"
+#~ msgstr ""
+#~ "Peut-être pouvez vous essayer une recherche pour vous sortir de là ..."
+
+#~ msgid "One thought on &ldquo;%1$s&rdquo;"
+#~ msgstr "Une réaction sur &ldquo;%1$s&rdquo;"
+
+#, fuzzy
+#~ msgid "%1$s réaction à propos de &ldquo;%2$s&rdquo;"
+#~ msgstr "%1$s réactions à propos de &ldquo;%2$s&rdquo;"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigation dans les commentaires"
+
+#~ msgid "Older Comments"
+#~ msgstr "Anciens commentaires"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires sont fermés."
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Laisser un commentaire"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Laisser un commentaire à %s"
+
+#~ msgid "Cancel Reply"
+#~ msgstr "Supprimer le commentaire"
+
+#~ msgid "Post Comment"
+#~ msgstr "Commentaire"
+
+#~ msgid ""
+#~ "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> "
+#~ "tags and attributes:"
+#~ msgstr ""
+#~ "Vous pouvez utiliser ces tags <abbr title=\"HyperText Markup Language"
+#~ "\">HTML</abbr>:"
+
+#~ msgid "Design by toutesLatitudes"
+#~ msgstr "Design by toutesLatitudes"
+
+#~ msgid "Right header"
+#~ msgstr "Right header"
+
+#~ msgid "Add widgets here."
+#~ msgstr "Ajouter des widgets ici."
+
+#~ msgid "Skip to content"
+#~ msgstr "Vers le contenu"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Résultats de recherche pour: %s"
+
+#~ msgid "Pages:"
+#~ msgstr "Pages:"
+
+#~ msgid "Edit %s"
+#~ msgstr "Modifier %s"
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid "Bootstrap WordPress Theme"
+#~ msgstr "Thème Bootstrap WordPress"
+
+#~ msgid "Primary"
+#~ msgstr "Principal"
+
+#~ msgid ""
+#~ "Welcome to WP Bootstrap Starter Theme! Before diving in to your new "
+#~ "theme, please visit the <a style=\"color: #fff; font-weight: bold;\" href="
+#~ "\"%1$s\" target=\"_blank\">theme's</a> page for access to dozens of tips "
+#~ "and in-depth tutorials."
+#~ msgstr ""
+#~ "Bienvenue dans le WP Bootstrap Starter Theme! Avant de plonger dans votre "
+#~ "nouveau thème, visiter la <a style=\"color: #fff; font-weight: bold;\" "
+#~ "href=\"%1$s\" target=\"_blank\">page du thème</a> pour avoirs des astuces "
+#~ "et des tutoriels."
+
+#~ msgid "Sidebar"
+#~ msgstr "Sidebar"
+
+#~ msgid "Footer 1"
+#~ msgstr "Pied de page 1"
+
+#~ msgid "Footer 2"
+#~ msgstr "Pied de page 2"
+
+#~ msgid "Footer 3"
+#~ msgstr "Pied de page 3"
+
+#~ msgid "To view this protected post, enter the password below:"
+#~ msgstr ""
+#~ "Pour voir cet article protégé, veuillez entrer le mot de passe ci-dessous:"
+
+#~ msgid "Password:"
+#~ msgstr "Mot de passe:"
+
+#~ msgid ""
+#~ "To customize the contents of this header banner and other elements of "
+#~ "your site, go to Dashboard > Appearance > Customize"
+#~ msgstr ""
+#~ "Pour personnaliser les éléments de cette bannière d'entête et les autres "
+#~ "éléments du site allez sur le tableau de bord - rubrique Apparence - "
+#~ "Personnaliser"
+
+#~ msgid "Preset Styles"
+#~ msgstr "Styles Preset"
+
+#~ msgid "Theme Option"
+#~ msgstr "Option du Thème"
+
+#~ msgid "Typography"
+#~ msgstr "Typographie"
+
+#~ msgid "Header Banner"
+#~ msgstr "Bannière de l'entête"
+
+#~ msgid "Header Image"
+#~ msgstr "Image de l'entête"
+
+#~ msgid "Header Banner Background Color"
+#~ msgstr "Couleur de fond de la bannière d'entête"
+
+#~ msgid "WP Bootstrap Framework"
+#~ msgstr "Framework WP Bootstrap"
+
+#~ msgid "Banner Title"
+#~ msgstr "Titre de la bannière"
+
+#~ msgid ""
+#~ "To customize the contents of this header banner and other elements of "
+#~ "your site go to Dashboard - Appearance - Customize"
+#~ msgstr ""
+#~ "Pour personnaliser les éléments de cette bannière d'entête et les autres "
+#~ "éléments du site allez sur le tableau de bord - rubrique Apparence - "
+#~ "Personnalizer"
+
+#~ msgid "Banner Tagline"
+#~ msgstr "Tagline de la bannière"
+
+#~ msgid "Remove Header Banner"
+#~ msgstr "Supprimer la bannière d'entête"
+
+#~ msgid "Other Customizations"
+#~ msgstr "Autres personnalisations"
+
+#~ msgid "Background Color"
+#~ msgstr "Couleur de fond"
+
+#~ msgid "Background Image"
+#~ msgstr "Image de fond"
+
+#~ msgid "no"
+#~ msgstr "non"
+
+#~ msgid "Use CDN for Assets"
+#~ msgstr "Utilise un CDN pour les Assets"
+
+#~ msgid "All Bootstrap Assets and FontAwesome will be loaded in CDN."
+#~ msgstr ""
+#~ "Tous les assets Bootstrap et FontAwesome seront téléchargés dans un CDN"
+
+#~ msgid "Yes"
+#~ msgstr "Oui"
+
+#~ msgid "No"
+#~ msgstr "Non"
+
+#~ msgid "Upload Logo (replaces text)"
+#~ msgstr "Télécharger un Logo (remplace le texte)"
+
+#~ msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+#~ msgstr ""
+#~ "Laisser un commentaire<span class=\"screen-reader-text\"> à propos de %s</"
+#~ "span>"
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Posted in %1$s"
+#~ msgstr "Mis dans %1$s"
+
+#~ msgid "Tagged %1$s"
+#~ msgstr "Marquer %1$s"
+
+#~ msgid "Pingback:"
+#~ msgstr "Pingback:"
+
+#~ msgid "%s <span class=\"says\">says:</span>"
+#~ msgstr "%s"
+
+#~ msgid ""
+#~ "<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></"
+#~ "span> Edit"
+#~ msgstr ""
+#~ "<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></"
+#~ "span> Modifier"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Votre commentaire est en attente de modération"
+
+#~ msgid "Add a menu"
+#~ msgstr "Ajouter un menu"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "Prêt à publier votre premier article ? <a href=\"%1$s\">Commencer ici</a>."
+
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Remove this item"
+#~ msgstr "Supprimer cet élément"
+
+#~ msgid "Available on backorder"
+#~ msgstr "Disponible en arrière plan"

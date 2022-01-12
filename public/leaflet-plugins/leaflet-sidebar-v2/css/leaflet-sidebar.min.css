@@ -1,0 +1,207 @@
+ #select-maps .leaflet-control-layers {
+  box-shadow: none;
+  border: none; }
+
+.leaflet-sidebar {
+  position: absolute;
+  top: 10px;
+  width: 95%;
+  z-index: 2000; }
+  .leaflet-sidebar.collapsed {
+    width: 32px; }
+  @media (min-width: 768px) {
+    .leaflet-sidebar {
+      top: 10px;
+      transition: width 500ms; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .leaflet-sidebar {
+      width: 200px;
+      max-width: 305px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .leaflet-sidebar {
+      width: 220px;
+      max-width: 390px; } }
+  @media (min-width: 1200px) {
+    .leaflet-sidebar {
+      width: 240px;
+      max-width: 240px; } }
+
+.leaflet-sidebar-left {
+  left: 0; }
+  @media (min-width: 768px) {
+    .leaflet-sidebar-left {
+      left: 10px; } }
+
+.leaflet-sidebar-right {
+  right: 10px; }
+  @media (min-width: 768px) {
+    .leaflet-sidebar-right {
+      right: 10px; } }
+
+.leaflet-sidebar-tabs {
+  top: 0;
+  height: 96px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+  border-radius: 4px;
+  background-color: #fff; }
+  .leaflet-sidebar-left .leaflet-sidebar-tabs {
+    left: 0; }
+  .leaflet-sidebar-right .leaflet-sidebar-tabs {
+    right: 0; }
+  .leaflet-sidebar-tabs, .leaflet-sidebar-tabs > ul {
+    position: absolute;
+    width: 32px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .leaflet-sidebar-tabs > li, .leaflet-sidebar-tabs > ul > li {
+      width: 100%;
+      height: 32px;
+      color: #333;
+      border-bottom: 1px solid #CCC;
+      font-size: 10pt;
+      overflow: hidden;
+      transition: all 80ms; }
+      .leaflet-sidebar-tabs > li:hover, .leaflet-sidebar-tabs > ul > li:hover {
+        color: #000;
+        background-color: #eee; }
+      .leaflet-sidebar-tabs > li.active, .leaflet-sidebar-tabs > ul > li.active {
+        color: #fff;
+        background-color: #036da1; }
+      .leaflet-sidebar-tabs > li.disabled, .leaflet-sidebar-tabs > ul > li.disabled {
+        color: rgba(51, 51, 51, 0.4); }
+        .leaflet-sidebar-tabs > li.disabled:hover, .leaflet-sidebar-tabs > ul > li.disabled:hover {
+          background: transparent; }
+        .leaflet-sidebar-tabs > li.disabled > a, .leaflet-sidebar-tabs > ul > li.disabled > a {
+          cursor: default; }
+      .leaflet-sidebar-tabs > li > a, .leaflet-sidebar-tabs > ul > li > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 32px;
+        color: inherit;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer; }
+  .leaflet-sidebar-tabs > ul + ul {
+    bottom: 0; }
+
+.leaflet-sidebar {
+	height: 128px;
+}
+
+.leaflet-sidebar-content {
+  position: absolute;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+  border-radius: 4px;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  max-height: 620px;
+  overflow-x: hidden;
+  overflow-y: auto; }
+  .leaflet-sidebar-left .leaflet-sidebar-content {
+    left: 32px;
+    right: 0; }
+  .leaflet-sidebar-right .leaflet-sidebar-content {
+    left: 0;
+    right: 32px; }
+  .leaflet-sidebar.collapsed > .leaflet-sidebar-content {
+    overflow-y: hidden; }
+
+.collapsed > .leaflet-sidebar-content {
+  overflow-y: hidden; }
+
+.leaflet-sidebar-pane {
+  display: none;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 10px 15px 10px 25px; }
+  .leaflet-sidebar-pane.active {
+    display: block; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .leaflet-sidebar-pane {
+      min-width: 168px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .leaflet-sidebar-pane {
+      min-width: 188px; } }
+  @media (min-width: 1200px) {
+    .leaflet-sidebar-pane {
+      min-width: 208px; } }
+
+.leaflet-sidebar-header {
+  margin: -10px -25px 0;
+  height: 32px;
+  padding: 0 25px;
+  line-height: 32px;
+  font-size: 12pt;
+  color: #fff;
+  background-color: #036da1; }
+  .leaflet-sidebar-right .leaflet-sidebar-header {
+    padding-left: 32px; }
+
+.leaflet-sidebar-close {
+  position: absolute;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  cursor: pointer; }
+  .leaflet-sidebar-left .leaflet-sidebar-close {
+    right: 0; }
+  .leaflet-sidebar-right .leaflet-sidebar-close {
+    left: 0; }
+
+.leaflet-sidebar {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65); }
+  @media (min-width: 768px) {
+    .leaflet-sidebar {
+      border-radius: 4px; }
+      .leaflet-sidebar.leaflet-touch {
+        border: 2px solid rgba(0, 0, 0, 0.2); } }
+
+.leaflet-sidebar-left.leaflet-touch {
+  box-shadow: none;
+  border-right: 2px solid rgba(0, 0, 0, 0.2); }
+
+@media (min-width: 768px) {
+  .leaflet-sidebar-left ~ .leaflet-control-container .leaflet-left {
+    transition: left 500ms; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .leaflet-sidebar-left ~ .leaflet-control-container .leaflet-left {
+    left: 210px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .leaflet-sidebar-left ~ .leaflet-control-container .leaflet-left {
+    left: 230px; } }
+
+@media (min-width: 1200px) {
+  .leaflet-sidebar-left ~ .leaflet-control-container .leaflet-left {
+    left: 25px; } }
+
+.leaflet-sidebar-left.collapsed ~ .leaflet-control-container .leaflet-left {
+  left: 42px; }
+
+.leaflet-sidebar-right.leaflet-touch {
+  box-shadow: none;
+  border-left: 2px solid rgba(0, 0, 0, 0.2); }
+
+@media (min-width: 768px) {
+  .leaflet-sidebar-right ~ .leaflet-control-container .leaflet-right {
+    transition: right 500ms; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .leaflet-sidebar-right ~ .leaflet-control-container .leaflet-right {
+    right: 210px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .leaflet-sidebar-right ~ .leaflet-control-container .leaflet-right {
+    right: 23px; } }
+
+@media (min-width: 1200px) {
+  .leaflet-sidebar-right ~ .leaflet-control-container .leaflet-right {
+    right: 250px; } }
+
+.leaflet-sidebar-right.collapsed ~ .leaflet-control-container .leaflet-right {
+  right: 42px; }
