@@ -61,11 +61,11 @@ require_once plugin_dir_path( __FILE__ ) . 'amecycl_ame.php';
 
 
 /* Couches possibles pour la carte
- * OSM    : Openstreetmap
- * COSM   : CyclOSM - par défaut
+ * OSM    : Openstreetmap - par défaut
+ * COSM   : CyclOSM
  * OTM    : OpenTopoMap
  * --- couches IGN : 
- * MAPS   : IGN - cartes standard - nécessite une clé lié au sit
+ * MAPS   : IGN - cartes standard - nécessite une clé lié au site
  * SCAN25 : IGN - cartes topo touristiques - nécessite une clé lié au site
  * PLANS  : IGN - Plans - clé 'essentiels'
  * ORTHO  : IGN - Photos aeriennes - clé 'essentiels'
@@ -80,17 +80,17 @@ require_once plugin_dir_path( __FILE__ ) . 'amecycl_ame.php';
  * EIMAG  : ESRI Imagery
  */
 
-// clé IGN pour le site http://www.randovelo.touteslatitudes.fr
-define('ACY_IGN_API_KEY', "90d5fz1p7uc0ckz4ubppsc3y"); 
+// clé IGN nécessaires pour les fonds SCAN25 et IGN cartes standard (ajouter "SCAN25" et "MAPS" dans la liste) 
+//define('ACY_IGN_API_KEY', "mettre votre clé ign ici"); 
 
-// clé OpenCycleMap
-define('ACY_OCM_API_KEY', "9d6c520287b940e0b785fb82325d8cf0");
+// clé OpenCycleMap (ajouter "OCM" dans la liste)
+//define('ACY_OCM_API_KEY', "mettre votre clé OpenCycleMap ici");
 
-// Utilisation des fonds de carte Google. Nécessite une clé.
-//define('ACY_GOOGLE_API_KEY', "clé à renseigner");
+// Utilisation des fonds de carte Google. Nécessite une clé. (ajouter "GMRMP","GMSTAT","GMTER" dans la liste)
+//define('ACY_GOOGLE_API_KEY', "mettre votre clé google map ici");
 
-// Liste des couches à afficher choix parmi "COSM","OSM","OTM","MAPS","SCAN25","PLANS","ORTHO","OCM","ETOPO","EIMAG","GMRMP","GMSTAT","GMTER"
-define('ACY_MAPS', '"OSM", "COSM","OTM","ETOPO","EIMAG","MAPS","SCAN25","PLANS","ORTHO","OCM"');
+// Liste des fonds de cartes à afficher choix parmi "COSM","OSM","OTM","MAPS","SCAN25","PLANS","ORTHO","OCM","ETOPO","EIMAG","GMRMP","GMSTAT","GMTER"
+define('ACY_MAPS', '"OSM", "COSM","OTM","ETOPO","EIMAG","PLANS","ORTHO"');
 
 /**
  * The code that runs during plugin activation.

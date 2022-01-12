@@ -14,7 +14,7 @@ Carte des aménagements cyclables d'**Orléans, Tours et Bourges** : https://ran
 
 Le plugin **affiche la carte** des aménagements cyclables de une ou plusieurs régions et **fournit des statistiques sur la longueur et le linéaire cyclable** par type d'aménagements pour chaque région.  
 
-Les types d'aménagements affichés sont les suivants :  
+Les types d'aménagements qui peuvent être affichés sont les suivants :  
 
 	"ACCOTEMENT REVETU HORS CVCB"
 	"AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE"
@@ -34,11 +34,12 @@ Les types d'aménagements affichés sont les suivants :
 
 Le menu droit de la carte permet de :  
 
-- choisir un fond de carte (OpenStreetMap, CyclOsm, OpenTopoMap, Esri TopoMap, ...)
+- connaitre les statistiques globales et la date des données
+- choisir un fond de carte (OpenStreetMap, CyclOsm, OpenTopoMap, Esri TopoMap, IGN, ...)
 - filtrer l'affichage d'un type d'aménagement
 - télécharger le calque correspondant à un aménagement au format .geojson
 
-Un click sur un aménagement tracé sur la carte permet de voir les **caractéristiques de l'aménagement**
+Un clic droit sur un aménagement tracé sur la carte permet de voir les **caractéristiques de l'aménagement**
 
 
 Le fichier de données nécessaire à la création doit être conforme à la version **0.3.3** du schéma de données des aménagements cyclables 
@@ -147,6 +148,19 @@ Pour l'**affichage du tableau des statistiques** :
 
 - Affichage des statistiques de Fleury-les-Aubrais, Olivet, Orléans et Saint-Jean-de-Brayes dans un seul tableau  
 [amecycl-stats setting='geovelo' slugs='orleans-2021,fleury-les-aubrais-2021,olivet-2021,st-jean-de-braye-2021' align='left' width='80%']  
+
+
+**Cartes IGN et OpenCycleMap**  
+
+Si vous possédez une clé ign vous pouvez rajouter les couches SCAN25 (MAPS.SCAN25TOUR) et carte IGN Standard (MAPS). 
+Idem pour le fond de carte OpenCycleMap (OCM).
+
+Pour cela il suffit de renseigner les clés et mettre à jour la liste des fonds de carte possibles. 
+Voir le début du fichier amecycl.php dans le repertoire situé à la racine du plugin.  
+
+**Couleurs de la configuation par défaut**  
+
+Si vous souhaiter modifier les couleurs de la configuration par défaut, il vous faut modifier le fichier amecycl_ame.php situé à la racine du plugin.  
 
 
 ## Plus d'informations (en Français) : 
