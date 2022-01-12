@@ -147,24 +147,24 @@ Pour l'**affichage du tableau des statistiques** :
 
 ## Versions : 
 
-** Version 1.1.1 ** 
+**Version 1.1.1**  
 12/01/2022 
 
 - correction d'un bug sur l'ordre d'affichage des aménagements dans le menu de selection 
 
 
-** Version 1.1.0 ** 
-07/01/2022 
+**Version 1.1.0**  
+07/01/2022  
 
 - ajout de la surcharge de configuation 
-- ajout des paramètres deltazoom et padding
+- ajout des paramètres deltazoom et padding 
 - mise en forme des informations affichées 
-- messages d'erreurs dans la saisie du shortcode
-- optimisation du code (partie js)
-- correction de bugs (partie admin) 
+- messages d'erreurs dans la saisie du shortcode 
+- optimisation du code (partie js) 
+- correction de bugs (partie admin)  
 
 
-** Version 1.0.0 ** 
+**Version 1.0.0**  
 23/12/2021  
 
 Version initiale 
