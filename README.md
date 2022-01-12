@@ -160,7 +160,7 @@ Voir le début du fichier amecycl.php dans le repertoire situé à la racine du 
 
 **Couleurs de la configuation par défaut**  
 
-Si vous souhaiter modifier les couleurs de la configuration par défaut, il vous faut modifier le fichier amecycl_ame.php situé à la racine du plugin.  
+Si vous souhaitez modifier les couleurs de la configuration par défaut, il vous faut modifier le fichier amecycl_ame.php situé à la racine du plugin.  
 
 
 ## Plus d'informations (en Français) : 
