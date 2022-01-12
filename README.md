@@ -3,7 +3,16 @@
 
 Plugin Wordpress pour l'affichage des **aménagements cyclables** d'une région (EPCI)
 
-Le plugin **affiche la carte** des aménagements cyclables de une ou plusieurs régions et **calcule la longueur et le linéaire cyclable** par type d'aménagements pour chaque région. 
+**Pages de démonstration**
+
+Carte des aménagements cyclables d'**Orléans métropole** : https://randovelo.touteslatitudes.fr/orleans-metropole-amecycl-2021/  
+
+Carte des aménagements cyclables d'**Orléans, Tours et Bourges** : https://randovelo.touteslatitudes.fr/orleans-tours-bourges-amecycl-2021/  
+
+
+**Présentation**  
+
+Le plugin **affiche la carte** des aménagements cyclables de une ou plusieurs régions et **fournit des statistiques sur la longueur et le linéaire cyclable** par type d'aménagements pour chaque région.  
 
 Les types d'aménagements affichés sont les suivants :  
 
